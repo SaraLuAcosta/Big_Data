@@ -11,4 +11,21 @@ Teniendo como insumo las bases de datos entregadas por la empresa Habi, se quier
 - Sara Lucia Acosta, slacostap@unal.edu.co
 - Valeria Bejarano Salcedo, vbejaranos@unal.edu.co
 
-Para esto se realizo un completo análisis de la  la base de datos, teniendo como insumo que  para el modelamiento son necesarios datos de buena calidad, luego bajo la filosofia de garbage in, garbage out se realiza una recopilación y procesamiento de la información de otras fuentes que nos brindan otro tipo de información necesaria dentro de este negocio inmobiliario, por lo que se realizo un detalle con los datos de catastro de Bogotá; Se obtuvo la base de datos correspondiente al avaluo de la base catastral de Bogotá, con ello se cruzan por medio de la libreria geopandas con la latitud y longitud de cada inmueble dadas por Habi.
+# Descripción de la metodología:
+Se realizo un completo análisis de la  la base de datos, teniendo como insumo que  para el modelamiento son necesarios datos de buena calidad, luego bajo la filosofia de garbage in, garbage out se realiza una recopilación y procesamiento de la información para entender y limpiar más de 250 mil registros que se nos entregó. Se consideraron variables importantes:
+
+ * area
+ * baños
+ * estrato
+ * garajes
+ * habitaciones
+ * piso
+ * valoradministracion
+ * valorventa
+ * latitud
+ * longitud
+ * tipoinmueble
+ * tiponegocio
+ * tiempodeconstruido.
+ * Entre otras 
+Se realizo una filtración de datos atipicos y validaciones sobre las caracteristicas de los inmuebles. También se hizo un análisis espacial, intersectando los puntos con las manzanas de Bogotá y contrastando el valor por metro cuadrado de un lote, tomando en cuenta características del entorno,  con los datos oficiales del catastro de Bogota. Luego se codificaron las variables categóricas, para poder entrenar a el modelo.
