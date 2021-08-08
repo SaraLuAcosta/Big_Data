@@ -39,7 +39,7 @@ drive.mount("/content/gdrive")
 # 
 # def main():
 #   #st.title("MODELO")
-#   menu = ["DEMO"]
+#   menu = ["DEMO",'Reto y Metodología utilizada','Sobre nosotras']
 #   imageNacho = Image.open('logo.png')
 #   st.sidebar.image(imageNacho)
 #   choice = st.sidebar.radio("Menu",menu)
@@ -49,8 +49,7 @@ drive.mount("/content/gdrive")
 #     st.image(imageBogota)
 #     st.sidebar.title("""**RETO**""")
 #     st.sidebar.write("* Reto: crear un algoritmo que pueda valorar inmuebles EN BOGOTÁ que no hagan parte de una propiedad horizontal.")
-#     st.sidebar.markdown('### Sara Lucia Acosta Pinzón')
-#     st.sidebar.markdown('### Valeria Bejarano Salcedo')
+# 
 #   
 #   
 #     st.write('Ya sea que desee comprar, vender, refinanciar o incluso remodelar una casa,  es necesario conocer el precio de su vivienda para tomar una decisión más informada.Por esto se crea una interfaz fácil de usar la cual  ofrece un  margen de error bajo para el precio de hogares en Bogotá, tomando en consideración estimaciones del catastro de Bogotá que incluye información relevante del sector(cercania a parques, centros comerciales, escuelas, zonas industriales, etc) que pueden inclementar o devaluar el precio de una vivienda.')
