@@ -28,4 +28,5 @@ Se realizo un completo análisis de la  la base de datos, teniendo como insumo q
  * tiponegocio
  * tiempodeconstruido.
  * Entre otras 
+ 
 Se realizo una filtración de datos atipicos y validaciones sobre las caracteristicas de los inmuebles. También se hizo un análisis espacial, intersectando los puntos con las manzanas de Bogotá y contrastando el valor por metro cuadrado de un lote, tomando en cuenta características del entorno,  con los datos oficiales del catastro de Bogota. Luego se codificaron las variables categóricas, para poder entrenar a el modelo.
